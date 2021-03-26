@@ -1,0 +1,18 @@
+header {
+  background-color: rgb(107, 103, 103);
+}
+h1,
+h2 {
+  text-align: center;
+  color: rgb(240, 82, 9);
+}
+.container {
+  text-align: center;
+}
+.piwnica {
+  background-color: rgb(107, 103, 103);
+}
+footer h2 {
+  text-align: center;
+  color: rgb(240, 82, 9);
+}
