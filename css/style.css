@@ -12,6 +12,7 @@ h2 {
 input[type="checkbox"]:checked + label {
   text-decoration: line-through;
 }
+
 .piwnica {
   background-color: rgb(107, 103, 103);
 }
