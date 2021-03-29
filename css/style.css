@@ -8,11 +8,14 @@ h2 {
 }
 .container {
   text-align: center;
+  font-size: 18px;
+}
+li {
+  list-style: none;
 }
 input[type="checkbox"]:checked + label {
   text-decoration: line-through;
 }
-
 .piwnica {
   background-color: rgb(107, 103, 103);
 }
