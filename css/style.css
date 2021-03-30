@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  transition: all 0.1s ease-in;
 }
 header {
   background-color: rgb(107, 103, 103);
@@ -8,7 +9,7 @@ header {
 h1,
 h2 {
   text-align: center;
-  color: rgb(240, 82, 9);
+  color: rgb(240, 63, 9);
 }
 .container {
   font-size: 18px;
@@ -48,6 +49,10 @@ main div {
 }
 .piwnica {
   background-color: rgb(107, 103, 103);
+  height: 50px;
+}
+footer {
+  margin-top: 20px;
 }
 footer h2 {
   text-align: center;
