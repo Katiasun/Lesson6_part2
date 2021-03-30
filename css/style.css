@@ -47,6 +47,12 @@ main div {
   width: 500px;
   margin: 0 auto;
 }
+i::before {
+  content: "(";
+}
+i::after {
+  content: ")";
+}
 .piwnica {
   background-color: rgb(107, 103, 103);
   height: 50px;
