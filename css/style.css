@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 header {
   background-color: rgb(107, 103, 103);
 }
@@ -7,14 +11,28 @@ h2 {
   color: rgb(240, 82, 9);
 }
 .container {
-  text-align: center;
   font-size: 18px;
+}
+ul {
+  word-spacing: 4px;
 }
 li {
   list-style: none;
+  padding: 10px 5px;
+  margin: 5px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+}
+li:hover {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 input[type="checkbox"]:checked + label {
   text-decoration: line-through;
+}
+main div {
+  width: 500px;
+  margin: 0 auto;
 }
 .piwnica {
   background-color: rgb(107, 103, 103);
